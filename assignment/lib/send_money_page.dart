@@ -135,6 +135,7 @@ class _SendMoneyPageState extends State<SendMoneyPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        automaticallyImplyLeading: false,
         title: const Text('Send Money'),
         backgroundColor: Colors.deepPurple,
         titleTextStyle: const TextStyle(
